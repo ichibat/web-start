@@ -1,0 +1,22 @@
+[debug] [2020-01-13T01:27:50.383Z] ----------------------------------------------------------------------
+[debug] [2020-01-13T01:27:50.385Z] Command:       /Users/tims/.anyenv/envs/nodenv/versions/10.16.0/bin/node /Users/tims/.anyenv/envs/nodenv/versions/10.16.0/bin/firebase serve --only hosting
+[debug] [2020-01-13T01:27:50.385Z] CLI Version:   7.11.0
+[debug] [2020-01-13T01:27:50.385Z] Platform:      darwin
+[debug] [2020-01-13T01:27:50.385Z] Node Version:  v10.16.0
+[debug] [2020-01-13T01:27:50.386Z] Time:          Mon Jan 13 2020 10:27:50 GMT+0900 (GMT+09:00)
+[debug] [2020-01-13T01:27:50.386Z] ----------------------------------------------------------------------
+[debug] [2020-01-13T01:27:50.386Z] 
+[debug] [2020-01-13T01:27:50.392Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-13T01:27:50.393Z] > authorizing via signed-in user
+[debug] [2020-01-13T01:27:50.393Z] [iam] checking project friendlychat-63b39 for permissions ["firebase.projects.get"]
+[debug] [2020-01-13T01:27:50.394Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-63b39:testIamPermissions  
+
+[debug] [2020-01-13T01:27:51.307Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-13T01:27:51.309Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-63b39  
+ 
+[debug] [2020-01-13T01:27:52.022Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-13T01:27:52.024Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/friendlychat-63b39/webApps/-/config  
+ 
+[debug] [2020-01-13T01:27:53.252Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] ✔  hosting: Local server: http://localhost:5000
